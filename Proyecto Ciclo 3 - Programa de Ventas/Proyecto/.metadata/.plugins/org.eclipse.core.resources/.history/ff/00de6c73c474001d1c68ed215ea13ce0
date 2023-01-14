@@ -1,0 +1,58 @@
+package mantenimientos;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import interfaces.ClienteInterface;
+import model.Cliente;
+import utils.MySQLConexion;
+
+public class GestionCliente implements ClienteInterface{
+
+	@Override
+	public ArrayList<Cliente> listarClientes() {
+		ArrayList<Cliente> lista = new ArrayList<Cliente>();
+		ResultSet rs = null;
+		Connection con = null;
+		PreparedStatement pst = null;
+		
+		try {
+			con = MySQLConexion.getConexion();
+			
+			String sql = " select id_cliente, codigo_doc, nombre_cliente, direccion_cliente from cliente"
+			
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+	
+		
+		return lista;
+	}
+
+	@Override
+	public Cliente obtenerCliente(int id_cliente) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int registrarCliente(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int actualizarCliente(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int eliminarCliente(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

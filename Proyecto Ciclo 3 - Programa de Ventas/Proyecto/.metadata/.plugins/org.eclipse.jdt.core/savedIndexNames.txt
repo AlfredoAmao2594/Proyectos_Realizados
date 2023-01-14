@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+D:\informatica y programacion\Proyectos\Proyecto Ciclo 3 - Programa de Ventas\Proyecto\.metadata\.plugins\org.eclipse.jdt.core
+870821861.index
+372082677.index
+3058310010.index
+249541942.index
+947549573.index
+760091825.index
+1503294478.index
+2633913317.index
+2283974325.index
+3879573623.index
+392750635.index
+3435026146.index
+1865797976.index
+2999885301.index
+1171412847.index
+3253579240.index
+1393116617.index
+2534555212.index

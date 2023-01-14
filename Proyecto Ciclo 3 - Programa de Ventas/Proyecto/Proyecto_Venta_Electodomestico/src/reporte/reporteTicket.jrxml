@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="reporteTicket" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="44e8b55e-825b-4254-842f-114ba5f853a3">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="CNX_ELECTRODOMESTICOS"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<queryString>
+		<![CDATA[SELECT numero_ticket , fecha, id_producto,deta_producto, precio,id_vendedor,cantidad from ticket]]>
+	</queryString>
+	<field name="numero_ticket" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="numero_ticket"/>
+		<property name="com.jaspersoft.studio.field.label" value="numero_ticket"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<field name="fecha" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="fecha"/>
+		<property name="com.jaspersoft.studio.field.label" value="fecha"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<field name="id_producto" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_producto"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_producto"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<field name="deta_producto" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="deta_producto"/>
+		<property name="com.jaspersoft.studio.field.label" value="deta_producto"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<field name="precio" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="precio"/>
+		<property name="com.jaspersoft.studio.field.label" value="precio"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<field name="id_vendedor" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="id_vendedor"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_vendedor"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<field name="cantidad" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="cantidad"/>
+		<property name="com.jaspersoft.studio.field.label" value="cantidad"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="ticket"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="560" height="79" forecolor="#FFFFFF" backcolor="#CC66CC" uuid="728b3f0c-d06a-4eae-bdbc-5b543f547d10"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="560" height="79" uuid="e7876a2d-8779-4e4f-8098-abc09d99c152"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[REPORTE DE TICKETS]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="32" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="80" height="30" backcolor="#E5F1FB" uuid="058ed864-27c7-4064-b457-278afb619b01">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5268991b-e2d0-4cbb-993d-86c51a2bea76"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[numero_ticket]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="0" width="80" height="30" backcolor="#E5F1FB" uuid="88544664-a377-4cb9-bef6-42dde21aec5f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8dcf13e0-b513-49b9-add0-4a712c363a10"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[fecha]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="160" y="0" width="90" height="30" backcolor="#E5F1FB" uuid="e68b3cab-78c6-4089-9341-9692928fc704">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="51646157-7baa-4eb8-aa07-4c2ed1fcf1d6"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[id_producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="0" width="110" height="30" backcolor="#E5F1FB" uuid="cd0700a7-86a2-4313-938d-d1dd49d1624c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3bb6b3cb-959b-4e80-8303-e4e660d5b406"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[deta_producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="0" width="70" height="30" backcolor="#E5F1FB" uuid="98fc0863-98e9-4516-9b5a-66be2106884d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="96f34aec-83d6-45bf-8990-0b983dd4825a"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[precio]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="430" y="0" width="80" height="30" backcolor="#E5F1FB" uuid="fdda92d6-7af8-454e-9eb0-fb4c440e0674">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4527e6ca-3319-49b0-bbe6-4e1bc6fb67bb"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[id_vendedor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="510" y="0" width="50" height="30" backcolor="#E5F1FB" uuid="cfb44522-740b-411e-a444-bd6e16a6b317">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3aa5f029-094d-44fa-a0b5-ce15dd665fa8"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[cantidad]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="80" height="30" uuid="3281995d-6d76-489a-a171-74b7d54a2f7a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="5268991b-e2d0-4cbb-993d-86c51a2bea76"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{numero_ticket}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="0" width="80" height="30" uuid="33243d6d-44ee-4b5f-b2f0-96752d4b7937">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8dcf13e0-b513-49b9-add0-4a712c363a10"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{fecha}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="160" y="0" width="90" height="30" uuid="907e4b92-95f6-42aa-aafd-3e4008a7c165">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="51646157-7baa-4eb8-aa07-4c2ed1fcf1d6"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{id_producto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="0" width="110" height="30" uuid="bc0cee1b-58de-4eee-81f0-22c6a875c024">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3bb6b3cb-959b-4e80-8303-e4e660d5b406"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{deta_producto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="360" y="0" width="70" height="30" uuid="4c857ef4-0252-4f5c-b24d-77d18a3a0b25">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="96f34aec-83d6-45bf-8990-0b983dd4825a"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="430" y="0" width="80" height="30" uuid="ad8b8526-4f9a-406d-a741-5cea6dae6fc3">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4527e6ca-3319-49b0-bbe6-4e1bc6fb67bb"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{id_vendedor}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="500" y="0" width="60" height="30" uuid="37a69b8d-2e0b-454e-9005-31bc49fcc977">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3aa5f029-094d-44fa-a0b5-ce15dd665fa8"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

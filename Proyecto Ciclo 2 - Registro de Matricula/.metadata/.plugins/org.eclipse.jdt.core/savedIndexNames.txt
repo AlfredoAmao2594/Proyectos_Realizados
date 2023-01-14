@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+D:\informatica y programacion\Proyectos\Proyecto Ciclo 2 - Registro de Matricula\.metadata\.plugins\org.eclipse.jdt.core
