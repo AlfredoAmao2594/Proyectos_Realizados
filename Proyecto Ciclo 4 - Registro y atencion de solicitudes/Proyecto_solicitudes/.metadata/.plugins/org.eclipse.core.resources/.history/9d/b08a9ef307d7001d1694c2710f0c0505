@@ -1,0 +1,103 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import beans.SolicitudDTO;
+import interfaces.SolicitudDAO;
+import utils.MySQLConexion;
+
+public class SqlSolicitudDAO implements SolicitudDAO {
+
+	@Override
+	public ArrayList<SolicitudDTO> listadoSolicitudes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ArrayList<SolicitudDTO> listadoFiltroSolicitudes(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int agregarSolicitud(SolicitudDTO solicitud) {
+		// TODO Auto-generated method stub
+		int cantidad = 0;
+		Connection cnx = null;
+		PreparedStatement pst = null;
+		String strSql= "insert into tb_solicitud values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,'pendiente')";
+		
+		try {
+			cnx=MySQLConexion.getConexion();
+			pst=cnx.prepareStatement(strSql);
+			
+			pst.setInt(1, solicitud.getId());
+			pst.setInt(2, solicitud.getTipoDocumento());
+			pst.setString(3, solicitud.getNumeroDocumento());
+			pst.setString(4, solicitud.getNombres());
+			pst.setString(5, solicitud.getApePaterno());
+			pst.setString(6, solicitud.getApeMaterno());
+			pst.setString(7, solicitud.getTelefono());
+			pst.setString(8, solicitud.getCelular());
+			pst.setString(9, solicitud.getCorreo());
+			pst.setInt(10, solicitud.getDepartamento());
+			pst.setInt(11, solicitud.getProvincia());
+			pst.setInt(12, solicitud.getDistrito());
+			pst.setString(13, solicitud.getDireccion());
+			pst.setString(14, solicitud.getTipoSolicitud());
+			pst.setString(15, solicitud.getTipoMotivo());
+			pst.setString(16, solicitud.getFechaSolicitud());
+			pst.setString(17, solicitud.getFechaComprobante());
+			pst.setString(18, solicitud.getTienda());
+			pst.setString(19, solicitud.getServicio());
+			pst.setString(20, solicitud.getDescripcionSolicitud());
+			pst.setString(21, solicitud.getRespuestaSolicitud());
+			pst.setString(22, solicitud.getEstado());
+			cantidad = pst.executeUpdate();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Se suscito la siguiente Excepcion: " + e.getMessage());
+		}
+		MySQLConexion.closeConexion(cnx);
+		MySQLConexion.closeStatement(pst);
+		
+		return cantidad;
+	}
+
+	@Override
+	public SolicitudDTO obtenerSolicitud(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int modificarSolicitud(SolicitudDTO solicitud) {
+		// TODO Auto-generated method stub
+		int cantidad = 0;
+		Connection cnx = null;
+		PreparedStatement pst = null;
+		ResultSet rs = null;
+		
+		try {
+			cnx = MySQLConexion.getConexion();
+			String strSql = "update tb_solicitud set respuestaSolicitud=? , estado=? where idSolicitud=?";
+			pst = cnx.prepareStatement(strSql);
+			pst.setString(1, solicitud.getRespuestaSolicitud());
+			pst.setString(2,solicitud.getEstado());
+			pst.setInt(3, solicitud.getId());
+			
+			cantidad = pst.executeUpdate();
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+			System.out.println("Error en la sentencia " + e.getMessage());
+		}
+		return 0;
+	}
+
+}

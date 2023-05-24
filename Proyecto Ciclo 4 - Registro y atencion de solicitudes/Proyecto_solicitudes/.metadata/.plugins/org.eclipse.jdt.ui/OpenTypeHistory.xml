@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=Restaurantes_SAC/src\/main\/java&lt;interfaces{DepartamentoDAO.java[DepartamentoDAO" modifiers="513" timestamp="1680649332989"/>
+    <typeInfo handle="=Restaurantes_SAC/src\/main\/java&lt;interfaces{ProvinciaDAO.java[ProvinciaDAO" modifiers="513" timestamp="1680641189322"/>
+    <typeInfo handle="=Restaurantes_SAC/D:\/informatica y programacion\/CICLO IV\/Lenguaje de Programación II\/apache-tomcat-8.5.84\/lib\/catalina.jar=/javadoc_location=/https:\/\/tomcat.apache.org\/tomcat-8.5-doc\/api\/=/=/owner.project.facets=/jst.web=/&lt;org.apache.catalina(DistributedManager.class[DistributedManager" modifiers="1537" timestamp="1668623664000"/>
+    <typeInfo handle="=Restaurantes_SAC/src\/main\/java&lt;interfaces{DistritoDAO.java[DistritoDAO" modifiers="513" timestamp="1680641287672"/>
+    <typeInfo handle="=Restaurantes_SAC/src\/main\/java&lt;interfaces{ClienteDAO.java[ClienteDAO" modifiers="513" timestamp="1682095264030"/>
+    <typeInfo handle="=Restaurantes_SAC/src\/main\/java&lt;interfaces{ComprobantePagoDAO.java[ComprobantePagoDAO" modifiers="513" timestamp="1682092828186"/>
+    <typeInfo handle="=Restaurantes_SAC/src\/main\/java&lt;interfaces{SolicitudDAO.java[SolicitudDAO" modifiers="513" timestamp="1681064202794"/>
+</typeInfoHistroy>

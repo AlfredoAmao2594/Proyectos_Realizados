@@ -1,0 +1,9 @@
+127.0.0.1 - - [23/May/2023:20:55:51 -0500] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:51 -0500] "GET /Restaurantes_SAC/ HTTP/1.1" 200 672
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:51 -0500] "GET /Restaurantes_SAC/css/styles.css HTTP/1.1" 200 3317
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:51 -0500] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:55 -0500] "POST /Restaurantes_SAC/usuarioSvlt HTTP/1.1" 200 610
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:55 -0500] "GET /Restaurantes_SAC/css/menu.css HTTP/1.1" 200 655
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:58 -0500] "GET /Restaurantes_SAC/clienteSvlt?opcion=listado HTTP/1.1" 200 1213
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:55:58 -0500] "GET /Restaurantes_SAC/css/cliente.css HTTP/1.1" 200 2860
+0:0:0:0:0:0:0:1 - - [23/May/2023:20:56:04 -0500] "POST /Restaurantes_SAC/clienteSvlt HTTP/1.1" 200 1803

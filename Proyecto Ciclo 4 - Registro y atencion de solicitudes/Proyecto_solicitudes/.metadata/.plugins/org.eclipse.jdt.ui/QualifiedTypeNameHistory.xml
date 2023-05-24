@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="dao.SqlClienteDAO"/>
+    <fullyQualifiedTypeName name="dao.SqlComprobantePagoDAO"/>
+    <fullyQualifiedTypeName name="dao.SqlDepartamentoDAO"/>
+    <fullyQualifiedTypeName name="dao.SqlDistritoDAO"/>
+    <fullyQualifiedTypeName name="dao.SqlProvinciaDAO"/>
+    <fullyQualifiedTypeName name="dao.SqlSolicitudDAO"/>
+    <fullyQualifiedTypeName name="dao.SqlDocumentoDAO"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Result"/>
+    <fullyQualifiedTypeName name="dao.DAOFactory"/>
+    <fullyQualifiedTypeName name="interfaces.UsuarioDAO"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="interfaces.SolicitudDAO"/>
+    <fullyQualifiedTypeName name="interfaces.ClienteDAO"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="interfaces.DocumentoDAO"/>
+    <fullyQualifiedTypeName name="interfaces.ComprobantePagoDAO"/>
+    <fullyQualifiedTypeName name="beans.ComprobantePagoDTO"/>
+    <fullyQualifiedTypeName name="service.GestionComprobantePago"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="utils.MySQLConexion"/>
+    <fullyQualifiedTypeName name="interfaces.DepartamentoDAO"/>
+    <fullyQualifiedTypeName name="interfaces.ProvinciaDAO"/>
+    <fullyQualifiedTypeName name="interfaces.DistritoDAO"/>
+    <fullyQualifiedTypeName name="service.GestionDepartamento"/>
+    <fullyQualifiedTypeName name="service.GestionProvincia"/>
+    <fullyQualifiedTypeName name="service.GestionDistrito"/>
+    <fullyQualifiedTypeName name="beans.DepartamentoDTO"/>
+    <fullyQualifiedTypeName name="beans.ProvinciaDTO"/>
+    <fullyQualifiedTypeName name="beans.DistritoDTO"/>
+    <fullyQualifiedTypeName name="beans.ClienteDTO"/>
+    <fullyQualifiedTypeName name="service.GestionCliente"/>
+    <fullyQualifiedTypeName name="service.GestionSolicitud"/>
+    <fullyQualifiedTypeName name="beans.SolicitudDTO"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="beans.UsuarioDTO"/>
+    <fullyQualifiedTypeName name="service.GestionUsuario"/>
+    <fullyQualifiedTypeName name="service.GestionDocumento"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="beans.DocumentoDTO"/>
+</qualifiedTypeNameHistroy>

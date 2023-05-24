@@ -1,0 +1,14 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.textProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="interfaces.ClienteDAO"><rhs name\="dao.SqlClienteDAO"/></lhs><lhs name\="interfaces.ComprobantePagoDAO"><rhs name\="dao.SqlComprobantePagoDAO"/></lhs><lhs name\="interfaces.DepartamentoDAO"><rhs name\="dao.SqlDepartamentoDAO"/></lhs><lhs name\="interfaces.DistritoDAO"><rhs name\="dao.SqlDistritoDAO"/></lhs><lhs name\="interfaces.ProvinciaDAO"><rhs name\="dao.SqlProvinciaDAO"/></lhs><lhs name\="interfaces.SolicitudDAO"><rhs name\="dao.SqlSolicitudDAO"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.RandomAccess"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.ArrayList"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="beans.DepartamentoDTO"><rhs name\="beans.DepartamentoDTO"/></lhs><lhs name\="beans.ComprobantePagoDTO"><rhs name\="beans.ComprobantePagoDTO"/></lhs><lhs name\="beans.ClienteDTO"><rhs name\="beans.ClienteDTO"/></lhs><lhs name\="beans.DistritoDTO"><rhs name\="beans.DistritoDTO"/></lhs><lhs name\="beans.UsuarioDTO"><rhs name\="beans.UsuarioDTO"/></lhs><lhs name\="beans.SolicitudDTO"><rhs name\="beans.SolicitudDTO"/></lhs><lhs name\="service.GestionUsuario"><rhs name\="service.GestionUsuario"/></lhs><lhs name\="service.GestionSolicitud"><rhs name\="service.GestionSolicitud"/></lhs><lhs name\="service.GestionCliente"><rhs name\="service.GestionCliente"/></lhs><lhs name\="service.GestionDocumento"><rhs name\="service.GestionDocumento"/></lhs><lhs name\="service.GestionComprobantePago"><rhs name\="service.GestionComprobantePago"/></lhs><lhs name\="service.GestionDepartamento"><rhs name\="service.GestionDepartamento"/></lhs><lhs name\="service.GestionProvincia"><rhs name\="service.GestionProvincia"/></lhs><lhs name\="service.GestionDistrito"><rhs name\="service.GestionDistrito"/></lhs></history>
+content_assist_number_of_computers=17
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
